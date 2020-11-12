@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.alert {
+    margin-left: 50px;
+    border: 1px solid;
+    width: 45%;
+    margin-right: 30px;
+}
+
+.success {
+    background-color: #155724;
+}
+
+/*.danger {
+    background-color: #dc3545;
+}*/
