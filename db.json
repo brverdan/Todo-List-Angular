@@ -1,0 +1,28 @@
+{
+    "Todos": [
+        {
+            "id": "Varrer",
+            "titulo": "Varrer a casa",
+            "descricao": "Varrer a casa toda em 30 minutos",
+            "grauDeImportancia": "alert-danger"
+        },
+        {
+            "id": "Lavar roupa",
+            "titulo": "Lavar minha roupas",
+            "descricao": "Lavar as minhas cuecas",
+            "grauDeImportancia": "alert-warning"
+        },
+        {
+            "id": "Cozinhar",
+            "titulo": "Fazer o almoço",
+            "descricao": "Fazer o almoço de hoje",
+            "grauDeImportancia": "alert-success"
+        },
+        {
+            "id": "Lixo",
+            "titulo": "Levar o lixo para fora",
+            "descricao": "Levar o lixo para fora e tomar cuidado com os guaxinins",
+            "grauDeImportancia": "alert-warning"
+        }
+    ]
+}
