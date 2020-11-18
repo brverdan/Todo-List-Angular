@@ -10,14 +10,26 @@
     padding-right: 60px;
 }
 
-a.addTodo {
+a {
     text-decoration: none;
+}
+
+.addTodo {
     padding: 11px;
 }
 
-a.addTodo:hover {
+.addTodo:hover {
     color: lightgrey;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #fff;
 }

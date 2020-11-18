@@ -1,0 +1,29 @@
+<div>
+    <div>
+        <app-header></app-header>
+    </div>
+    <div>
+        <form [formGroup]="addForm" class="form-group">
+            <h3>Nova Tarefa</h3>
+            <hr />
+            <div class="titulo">
+                <label for="titulo">Título da tarefa</label>
+                <input class="form-control" type="text" formControlName="titulo"
+                    placeholder="Escreva aqui o título da tarefa...">
+            </div>
+            <div class="descricao">
+                <label for="descricao">Descição da tarefa:</label>
+                <textarea class="form-control" id="descricao"  formControlName="descricao" rows="3"
+                    placeholder="Escreva aqui a descrição da tarefa..."></textarea>
+            </div>
+            <div class="grauDeImportancia">
+                <label for="grauDeImportancia">Grau de Importância da tarefa</label>
+                <select class="form-control">
+                    <option>Normal</option>
+                    <option>Urgente</option>
+                </select>
+            </div>
+            <button type="submit" [disabled]="!addForm.valid" class="btn btn-success botaoEnviar">Criar Tarefa</button>
+        </form>
+    </div>
+</div>

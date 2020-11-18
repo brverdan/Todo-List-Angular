@@ -1,0 +1,12 @@
+.form-group {
+    margin: 150px;
+}
+
+.titulo, .descricao, .grauDeImportancia {
+    margin-top: 20px;
+}
+
+.botaoEnviar {
+    margin-top: 15px;
+    border-radius: 15px;
+}
